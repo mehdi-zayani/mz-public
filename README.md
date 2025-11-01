@@ -65,6 +65,7 @@ npm run test:db
 
 Create a .env.local file in the project root:
 
+
 ```yaml
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
@@ -72,11 +73,13 @@ NEXT_PUBLIC_SITE_URL=https://mz-webapp.vercel.app
 ```
 ## Deployment
 
+
 This version is deployed and maintained on Vercel.
 
 Public Demo (Lite): https://mz-webapp.vercel.app
 
 ## License
+
 
 This project is released under the MIT License.
 You are free to use, modify, and distribute this version with attribution.
