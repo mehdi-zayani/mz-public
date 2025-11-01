@@ -3,20 +3,24 @@
 import createNextIntlPlugin from "next-intl/plugin";
 import type { NextConfig } from "next";
 
-// Initialize the Next Intl plugin for internationalization support
+// Initialize Next Intl plugin for i18n
 const withNextIntl = createNextIntlPlugin();
 
-// Define the Next.js configuration
+// Define Next.js configuration
 const nextConfig: NextConfig = {
-  // Enables React's strict mode for highlighting potential issues
   reactStrictMode: true,
 
-  // Experimental settings (optional)
-  experimental: {
-    // Disable typed routes (can be enabled later if route typing is desired)
-    typedRoutes: false,
+  // Define permanent redirect from root "/" to "/en"
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/en",
+        permanent: true,
+      },
+    ];
   },
 };
 
-// Export the configuration wrapped with the Next Intl plugin
+// Export configuration wrapped with Next Intl plugin
 export default withNextIntl(nextConfig);
