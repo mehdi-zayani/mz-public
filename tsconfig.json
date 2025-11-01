@@ -1,0 +1,68 @@
+// TypeScript configuration for MZ WebApp Public (Lite) Version
+// ------------------------------------------------------------
+// This configuration provides full support for Next.js 16 with TypeScript,
+// ensuring strict type safety, optimized module resolution, and compatibility
+// with both frontend (React) and backend (Node.js utility) files.
+
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    // Target modern ECMAScript output for better performance.
+    "target": "ES2022",
+    // Include DOM and latest ECMAScript features.
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    /* Module System & Resolution */
+    // Use ESNext module syntax to align with Next.js standards.
+    "module": "ESNext",
+    // Use the modern bundler-compatible module resolver.
+    "moduleResolution": "Bundler",
+    // Allow TypeScript files to import other .ts/.tsx files directly.
+    "allowImportingTsExtensions": true,
+    // Enable interoperability with CommonJS modules.
+    "esModuleInterop": true,
+    // Allow JSON imports (used for i18n and config files).
+    "resolveJsonModule": true,
+
+    /* Type Checking & Compilation */
+    // Enforce strict type checking for better reliability.
+    "strict": true,
+    // Skip library type checking to speed up builds.
+    "skipLibCheck": true,
+    // Treat each file as an isolated module (required for Next.js).
+    "isolatedModules": true,
+    // Prevent TypeScript from emitting compiled files (handled by Next.js).
+    "noEmit": true,
+    // Enable faster incremental builds.
+    "incremental": true,
+    // Allow JavaScript files in the project (useful for mixed setups).
+    "allowJs": true,
+
+    /* React & Next.js Integration */
+    // Use the React 17+ JSX transform.
+    "jsx": "react-jsx",
+    // Enable Next.js TypeScript plugin for enhanced DX.
+    "plugins": [{ "name": "next" }],
+
+    /* Path Aliases */
+    // Simplify imports using the "@" alias.
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+
+  /* Included Files */
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "scripts/**/*.ts",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    ".next\\dev/types/**/*.ts"
+  ],
+
+  /* Excluded Directories */
+  "exclude": ["node_modules"]
+}

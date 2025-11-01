@@ -1,0 +1,226 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "lab": "Le LAB",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signin": "Connexion"
+  },
+
+  "Home": {
+    "hero": {
+      "subtitle": "Ingénieur Full-Stack & passionné de DevOps",
+      "title": "Créer des expériences digitales intelligentes",
+      "description": "Concevoir des applications évolutives avec une architecture claire, de l’automatisation et un souci du détail à chaque étape — du frontend aux pipelines CI/CD.",
+      "primaryButton": "Découvrir les projets",
+      "secondaryButton": "Me contacter"
+    },
+
+    "summary": {
+      "title": "Ingénieur logiciel créant des solutions modernes et évolutives",
+      "paragraph1": "Fort de plus de 7 ans d’expérience en ingénierie logicielle full-stack, je conçois et développe des plateformes web robustes alliant performance, fiabilité et architecture soignée. Mon expertise couvre Java/Spring Boot, Node.js, React, Angular et les environnements cloud DevOps.",
+      "paragraph2": "Je suis passionné par la création de solutions durables et efficaces, tout en améliorant continuellement les systèmes grâce à l’automatisation et aux bonnes pratiques.",
+      "button": "En savoir plus sur moi"
+    },
+
+    "focus": {
+      "title": "Domaines de compétence clés",
+      "items": [
+        "Conception et architecture d’applications Full-Stack",
+        "Déploiement cloud et automatisation CI/CD",
+        "Développement et intégration d’API",
+        "Scalabilité et optimisation des performances systèmes",
+        "Collaboration agile et gestion de projet"
+      ]
+    },
+
+    "projects": {
+      "title": "Projets mis en avant",
+      "description": "Une sélection de projets personnels et techniques explorant le frontend, le backend et les workflows DevOps — illustrant mon approche pour concevoir des solutions fiables, évolutives et automatisées.",
+      "items": {
+        "smartcalc": {
+          "title": "SmartCalc",
+          "description": "Une application de calculatrice minimaliste mais puissante développée avec React et TypeScript, mettant en avant une architecture de composants claire et une gestion d’état propre.",
+          "button": "Voir le dépôt →"
+        },
+        "chromaflow": {
+          "title": "ChromaFlow",
+          "description": "Un générateur élégant de palettes de couleurs pour designers et développeurs. Créez et copiez des combinaisons parfaites en un clic.",
+          "button": "Voir le dépôt →"
+        },
+        "deploymate": {
+          "title": "DeployMate",
+          "description": "Un tableau de bord web évolutif intégré à Docker et AWS, dédié à la supervision des pipelines CI/CD et des déploiements en temps réel.",
+          "button": "Voir le dépôt →"
+        },
+        "lab": {
+          "title": "Le Lab",
+          "description": "Le Lab est mon espace expérimental — un lieu où projets, idées et explorations techniques se rencontrent. Il évolue vers un hub complet regroupant démonstrations, tutoriels et outils interactifs pour développeurs.",
+          "button": "En savoir plus →"
+        }
+      },
+      "ctaButton": "Voir tous les projets"
+    },
+
+    "blog": {
+      "title": "Depuis le blog",
+      "description": "Analyses, retours d’expérience et approfondissements autour du développement web, du DevOps et des bonnes pratiques en ingénierie logicielle.",
+      "posts": {
+        "post1": {
+          "title": "Optimiser les builds Next.js pour la performance",
+          "description": "Une analyse des optimisations de build, de l’ISR et des stratégies de cache pour garder vos applications Next.js rapides et évolutives.",
+          "button": "Lire la suite →"
+        },
+        "post2": {
+          "title": "Automatiser le CI/CD avec GitHub Actions",
+          "description": "Comment configurer des pipelines robustes pour tester, compiler et déployer vos applications de manière fluide sur différents environnements.",
+          "button": "Lire la suite →"
+        },
+        "post3": {
+          "title": "Construire des architectures React maintenables",
+          "description": "Structurer vos applications React pour la scalabilité et la clarté à l’aide de l’atomic design et de modèles réutilisables.",
+          "button": "Lire la suite →"
+        }
+      },
+      "ctaButton": "Voir tous les articles"
+    },
+
+    "stack": {
+      "title": "Stack technique",
+      "description": "Les technologies avec lesquelles je conçois, développe et fais évoluer des applications web modernes — du frontend au backend et jusqu’au cloud.",
+      "items": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "TypeScript",
+        "Cloud"
+      ],
+      "button": "Voir toute la stack →"
+    },
+
+    "cta": {
+      "title": "Construisons quelque chose de grand ensemble",
+      "description": "Que vous souhaitiez collaborer sur un projet, discuter d’une idée ou explorer de nouvelles opportunités — je suis toujours ouvert à échanger avec des professionnels et des équipes partageant la même vision.",
+      "button": "Me contacter"
+    }
+  },
+   "About": {
+    "header": {
+      "title": "À propos de moi",
+      "description": "Je suis Mehdi Zayani, ingénieur logiciel Full Stack avec une solide expérience en développement backend et frontend. Je conçois et développe des applications évolutives et prêtes pour le cloud à l’aide de frameworks modernes et de pratiques DevOps, offrant des solutions fiables et maintenables pour la croissance des entreprises."
+    },
+    "info": {
+      "location": { "title": "Localisation", "value": "France" },
+      "role": { "title": "Rôle", "value": "Ingénieur Logiciel" },
+      "experience": { "title": "Expérience", "value": "7+ ans" }
+    },
+    "whoami": {
+      "title": "Qui je suis",
+      "description": "Je suis un ingénieur logiciel orienté résultats, passionné par la création d’applications fiables, performantes et évolutives. J’aime résoudre des problèmes complexes, concevoir des architectures claires et livrer des solutions qui allient performance, ergonomie et maintenabilité à long terme."
+    },
+    "journey": {
+      "title": "Parcours"
+    },
+    "timeline": [
+      { "year": "2025", "title": "Développeur Web Freelance", "description": "Création d’applications web modernes et performantes pour divers secteurs." },
+      { "year": "2023", "title": "Stagiaire Développeur Fullstack", "description": "Participation au développement frontend et backend avec Next.js et Node.js." },
+      { "year": "2019", "title": "Master 2 en Gestion de Projets Informatiques", "description": "Diplômé avec spécialisation en gestion de projets et marketing digital." },
+      { "year": "2013", "title": "Diplôme d’Ingénierie Logicielle", "description": "Formation en ingénierie logicielle axée sur le développement Full Stack." }
+    ],
+    "skillsTitle": "Compétences",
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Javascript",
+      "Tailwind CSS",
+      "Node.js",
+      "Git",
+      "Vercel",
+      "Java",
+      "JEE",
+      "Spring Boot",
+      "Angular",
+      "Oracle",
+      "MySQL",
+      "Cassandra",
+      "ElasticSearch",
+      "Jenkins",
+      "Maven",
+      "GCP",
+      "Docker",
+      "CI/CD",
+      "Linux",
+      "Cloud DevOps",
+      "Méthodologies Agiles"
+    ]
+  },
+   "Contact": {
+    "title": "Entrer en",
+    "highlight": "contact",
+    "description": "Vous avez un projet en tête ou souhaitez simplement dire bonjour ? Entrons en contact — je vous répondrai dès que possible.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "button": "Envoyer le message"
+    }
+  },
+  "Footer": {
+    "description": "Développeur Fullstack et Ingénieur créant des solutions digitales au design soigné et au code efficace.",
+    "navigation": {
+      "title": "Navigation",
+      "home": "Accueil",
+      "about": "À propos",
+      "lab": "Le Lab",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "connect": {
+      "title": "Réseaux"
+    },
+    "rights": "Tous droits réservés."
+  },
+   "auth": {
+    "login_title": "Bienvenue",
+    "register_title": "Créer un compte",
+    "username": "Nom d'utilisateur",
+    "username_placeholder": "Votre pseudo",
+    "email": "Adresse e-mail",
+    "email_placeholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "accept_prefix": "J'accepte les",
+    "terms": "conditions d'utilisation",
+    "must_accept": "Vous devez accepter les conditions d'utilisation.",
+    "login_btn": "Se connecter",
+    "register_btn": "S'inscrire",
+    "loading": "Veuillez patienter...",
+    "or_continue": "ou continuer avec",
+    "no_account": "Pas encore de compte ?",
+    "have_account": "Déjà inscrit ?",
+    "signup": "Créer un compte",
+    "signin": "Se connecter",
+    "unauthorized": "Non autorisé. Veuillez vous connecter.",
+    "invalidToken": "Jeton invalide ou expiré.",
+    "userNotFound": "Utilisateur introuvable.",
+    "serverError": "Erreur interne du serveur."
+  },
+  "profile": {
+    "title": "Profil",
+     "bio": "À propos",
+    "noBio": "Aucune biographie ajoutée pour le moment.",
+    "skills": "Compétences",
+    "noSkills": "Aucune compétence listée pour l’instant.",
+    "joined": "Membre depuis",
+    "logout": "Se déconnecter",
+    "education": "Parcours académique",
+    "experience": "Expérience professionnelle",
+    "achievements": "Réalisations et badges"
+  }
+}

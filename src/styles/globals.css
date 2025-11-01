@@ -1,0 +1,16 @@
+/* globals.css */
+
+/* Import Tailwind base styles, component classes, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enable smooth scrolling for a better user experience */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apply light and dark mode background/text colors globally */
+body {
+  @apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 transition-colors duration-300;
+}

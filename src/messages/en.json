@@ -1,0 +1,230 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "lab": "The LAB",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signin": "Sign In"
+  },
+
+  "Home": {
+    "hero": {
+      "subtitle": "Full-Stack Engineer & DevOps Enthusiast",
+      "title": "Building Smart Digital Experiences",
+      "description": "Crafting scalable apps with clean architecture, automation, and attention to every pixel. From frontend to CI/CD pipelines.",
+      "primaryButton": "Explore Projects",
+      "secondaryButton": "Get in Touch"
+    },
+
+    "summary": {
+      "title": "Software Engineer crafting modern, scalable solutions",
+      "paragraph1": "With over 7 years of experience in full-stack software engineering, I design and build robust web platforms that connect performance, reliability, and clean architecture. My expertise spans Java/Spring Boot, Node.js, React, Angular, and cloud-based DevOps environments.",
+      "paragraph2": "I’m passionate about delivering impactful, long-term solutions and continuously improving systems through automation and best practices.",
+      "button": "Learn More About Me"
+    },
+
+    "focus": {
+      "title": "Core Focus Areas",
+      "items": [
+        "Full-Stack Application Design & Architecture",
+        "Cloud Deployment & CI/CD Automation",
+        "API Development & Integration",
+        "System Scalability & Performance Optimization",
+        "Agile Collaboration & Project Delivery"
+      ]
+    },
+
+    "projects": {
+      "title": "Featured Projects",
+      "description": "A selection of personal and technical projects exploring frontend, backend, and DevOps workflows — showcasing my approach to building reliable, scalable, and automated solutions.",
+      "items": {
+        "smartcalc": {
+          "title": "SmartCalc",
+          "description": "A minimal yet powerful calculator app built with React and TypeScript, showcasing clean component architecture and state management.",
+          "button": "View Repository →"
+        },
+        "chromaflow": {
+          "title": "ChromaFlow",
+          "description": "A sleek color palette generator for designers and developers. Generate and copy perfect color combinations in one click.",
+          "button": "View Repository →"
+        },
+        "deploymate": {
+          "title": "DeployMate",
+          "description": "A scalable web dashboard integrated with Docker and AWS, focusing on monitoring CI/CD pipelines and deployment states in real time.",
+          "button": "View Repository →"
+        },
+        "lab": {
+          "title": "The Lab",
+          "description": "The Lab is my experimental space — where projects, ideas, and technical explorations come together. It’s designed to evolve into a complete hub featuring project showcases, tutorials, and interactive tools for developers.",
+          "button": "Learn more →"
+        }
+      },
+      "ctaButton": "View All Projects"
+    },
+
+    "blog": {
+      "title": "From the Blog",
+      "description": "Insights, lessons learned, and deep dives into web development, DevOps, and software engineering best practices.",
+      "posts": {
+        "post1": {
+          "title": "Optimizing Next.js Builds for Performance",
+          "description": "A breakdown of build-time optimizations, ISR, and caching strategies to keep your Next.js apps fast and scalable.",
+          "button": "Read more →"
+        },
+        "post2": {
+          "title": "Automating CI/CD with GitHub Actions",
+          "description": "How to set up robust pipelines for testing, building, and deploying applications seamlessly across environments.",
+          "button": "Read more →"
+        },
+        "post3": {
+          "title": "Building Maintainable React Architectures",
+          "description": "Structuring your React applications for scalability and clarity using atomic design and reusable patterns.",
+          "button": "Read more →"
+        }
+      },
+      "ctaButton": "View All Posts"
+    },
+
+    "stack": {
+      "title": "Technical Stack",
+      "description": "Technologies I work with to design, build, and scale modern web applications — from frontend to backend and cloud environments.",
+      "items": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "TypeScript",
+        "Cloud"
+      ],
+      "button": "View Full Stack →"
+    },
+
+    "cta": {
+      "title": "Let’s build something great together",
+      "description": "Whether you’re looking to collaborate on a project, discuss a new idea, or explore potential opportunities — I’m always open to connecting with like-minded professionals and teams.",
+      "button": "Get in Touch"
+    }
+  },
+   "About": {
+    "header": {
+      "title": "About Me",
+      "description": "I'm Mehdi Zayani, a Full Stack Software Engineer with strong experience across backend and frontend development. I design and build scalable, cloud-ready applications using modern frameworks and DevOps practices, delivering reliable and maintainable software solutions for business growth."
+    },
+    "info": {
+      "location": { "title": "Location", "value": "France" },
+      "role": { "title": "Role", "value": "Software Engineer" },
+      "experience": { "title": "Experience", "value": "7+ Years" }
+    },
+    "whoami": {
+      "title": "Who I Am",
+      "description": "I’m a results-driven Software Engineer with a strong focus on building reliable, scalable, and efficient applications. I enjoy solving complex problems, designing clean architectures, and delivering solutions that combine performance, usability, and long-term maintainability."
+    },
+    "journey": {
+      "title": "Journey"
+    },
+    "timeline": [
+      { "year": "2025", "title": "Freelance Web Developer", "description": "Building modern, performant web apps for clients across industries." },
+      { "year": "2023", "title": "Fullstack Developer Intern", "description": "Worked on frontend and backend features using Next.js and Node.js." },
+      { "year": "2019", "title": "Master 2 in IT Project Management", "description": "Graduated with focus on project management and digital marketing." },
+      { "year": "2013", "title": "Software Engineering Degree", "description": "General Software Engineering studies with focus on Full Stack Development." }
+    ],
+    "skillsTitle": "Skills",
+    "skills": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Javascript",
+      "Tailwind CSS",
+      "Node.js",
+      "Git",
+      "Vercel",
+      "Java",
+      "JEE",
+      "Spring Boot",
+      "Angular",
+      "Oracle",
+      "MySQL",
+      "Cassandra",
+      "ElasticSearch",
+      "Jenkins",
+      "Maven",
+      "GCP",
+      "Docker",
+      "CI/CD",
+      "Linux",
+      "Cloud DevOps",
+      "Agile Methodologies"
+    ]
+  },
+   "Contact": {
+    "title": "Get in",
+    "highlight": "touch",
+    "description": "Have a project in mind or just want to say hi? Let’s connect — I’ll get back to you as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send message"
+    }
+  },
+  "Footer": {
+    "description": "Fullstack Developer & Engineer crafting digital solutions with clean design and efficient code.",
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "about": "About",
+      "lab": "The Lab",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "connect": {
+      "title": "Connect"
+    },
+    "rights": "All rights reserved."
+  },
+  
+  "auth": {
+    "login_title": "Welcome back",
+    "register_title": "Create your account",
+    "username": "Username",
+    "username_placeholder": "Your username",
+    "email": "Email",
+    "email_placeholder": "you@example.com",
+    "password": "Password",
+    "accept_prefix": "I agree to the",
+    "terms": "Terms & Conditions",
+    "must_accept": "You must accept the terms and conditions.",
+    "login_btn": "Sign in",
+    "register_btn": "Sign up",
+    "loading": "Please wait...",
+    "or_continue": "or continue with",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "signup": "Sign up",
+    "signin": "Log in",
+    "unauthorized": "Unauthorized. Please log in.",
+    "invalidToken": "Invalid or expired token.",
+    "userNotFound": "User not found.",
+    "serverError": "Internal server error."
+  },
+  "profile": {
+     "title": "Profile",
+     "bio": "About",
+     "noBio": "No bio added yet.",
+     "noSkills": "No skills listed yet.",
+     "joined": "Member since",
+     "logout": "Logout",
+     "skills": "Technical Skills",
+     "education": "Education",
+     "experience": "Professional Experience",
+     "achievements": "Achievements & Badges"
+  }
+
+
+}
+

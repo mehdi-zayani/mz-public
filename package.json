@@ -1,0 +1,74 @@
+{
+  "name": "mz-webapp-lite",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Public Lite version of the MZ WebApp — a multilingual Next.js 16 full-stack starter with authentication, internationalization (EN/FR), and modern UI using Tailwind CSS.",
+  "author": "Mehdi Zayani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehdizayani/mz-public.git"
+  },
+  "keywords": [
+    "nextjs",
+    "nextjs16",
+    "template",
+    "starter",
+    "typescript",
+    "tailwindcss",
+    "i18n",
+    "mongodb",
+    "jwt",
+    "authentication",
+    "next-intl",
+    "react",
+    "webapp"
+  ],
+  "metadata": {
+    "edition": "Public / Lite Edition",
+    "based_on": "MZ WebApp (Private Full Version)",
+    "purpose": "Showcase and base template for multilingual Next.js apps with authentication and MongoDB.",
+    "maintainer": "Mehdi Zayani",
+    "release_notes": "Initial public release (v1.0.0 Lite Edition). Includes login/register forms, protected profile route, theme switch, language toggle (EN/FR), and MongoDB connection."
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:db": "ts-node-esm scripts/test-db.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cookie": "^1.0.2",
+    "framer-motion": "^12.23.24",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.548.0",
+    "mongoose": "^8.19.2",
+    "next": "16.0.0",
+    "next-intl": "^4.4.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-icons": "^5.5.0",
+    "resend": "^6.2.2",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^20.19.24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "dotenv": "^17.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
