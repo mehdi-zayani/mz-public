@@ -110,7 +110,7 @@ export default function AuthForm({ mode }: AuthFormProps) {
               placeholder={t.username_placeholder}
               value={form.username}
               onChange={(e) => setForm({ ...form, username: e.target.value })}
-              className="w-full border border-neutral-300 dark:border-neutral-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+            
               required
             />
           </div>
